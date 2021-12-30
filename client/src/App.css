@@ -2,37 +2,89 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  /* different one for the same thing? (via figma)*/
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 6.52%;
+  bottom: 6.52%; */
+
+  background: #ff395a;
+  position: relative;
+
+  /* adjustable width? */
+  width: 100%;
+  height: 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-yellow {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 94.48%;
+  bottom: 6.52%;
+  border-bottom: 3px solid #ffe858;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-name {
+  /* change to relative so minimizing doesnt stack */
+  position: relative;
+  left: 14.53%;
+  right: 71.3%;
+  top: 0%;
+  bottom: 0%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 132px;
+  background: #f1f1f1;
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-text {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchBar {
+  position: absolute;
+  width: 100%;
+  height: 236px;
+  left: 0px;
+  top: 50px;
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.65));
+
+  /* just to see  */
+  border: 1px solid #000000;
+  background-color: #c1e2c8;
+}
+
+.searchBarText {
+  /* same css as title */
+  position: relative;
+  left: 14.53%;
+  right: 71.3%;
+  top: 10%;
+  bottom: 0%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
 }
