@@ -9,7 +9,7 @@ const Searchbar = () => {
       <div>feeind ontario, workin together towards hunger games</div>
       <button>Find your city</button>
       <div>Or</div>
-      <div class="wrap">
+      <div class="">
         <div class="search">
           <input
             id="citySearch"

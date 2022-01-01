@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Cities = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return <div className="selectCity">yo</div>;
+};
 
-export default Cities
+export default Cities;
