@@ -4,7 +4,7 @@ const Searchbar = () => {
   const searchCity = () => {};
 
   return (
-    <div className="searchBar">
+    <div className="searchBar ">
       <div className="searchBarText">Access Food In your Community</div>
       <div>feeind ontario, workin together towards hunger games</div>
       <button>Find your city</button>
