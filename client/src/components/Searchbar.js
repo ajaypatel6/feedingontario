@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Searchbar = ({ items }) => {
-  const searchCity = () => {};
+  const searchCity = () => {
+    alert("initiating search");
+
+  };
   // const {} = items;
 
   return (
@@ -25,7 +28,7 @@ const Searchbar = ({ items }) => {
               See more
             </Link> */}
             <a class="dropdown-item" href="#">
-              <Link to={`/Contact`} className="btn good-btn">
+              <Link to={`/Toronto`} className="btn good-btn">
                 Toronto
               </Link>
             </a>

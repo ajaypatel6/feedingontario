@@ -16,6 +16,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import City from "./pages/SingleCity";
 import Error from "./pages/Error";
+import Toronto from "./pages/Toronto";
+import TorontoBanks from "./pages/TorontoBanks";
+import TorontoMeals from "./pages/TorontoMeals";
 
 //
 import items from "./data/data";
@@ -41,6 +44,15 @@ function App() {
             </Route>
             <Route path="/Contact">
               <Contact />
+            </Route>
+            <Route path="/Toronto">
+              <Toronto />
+            </Route>
+            <Route path="/TorontoBanks">
+              <Toronto />
+            </Route>
+            <Route path="/TorontoMeals">
+              <Toronto />
             </Route>
             <Route path="/city/:name">
               <City items={cities} />
