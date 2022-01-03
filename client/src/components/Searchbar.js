@@ -26,7 +26,7 @@ const Searchbar = ({ items }) => {
             </Link> */}
             <a class="dropdown-item" href="#">
               <Link to={`/Contact`} className="btn good-btn">
-                Hamilton
+                Toronto
               </Link>
             </a>
           </li>

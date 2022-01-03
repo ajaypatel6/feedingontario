@@ -27,10 +27,10 @@ const Header = () => {
         id="mainNav"
       >
         <div class="container px-4 px-lg-5">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <div className="topLogo">
               <img src={logo} alt="logo" />
-            </div>{" "}
+            </div>
           </a>
           <button
             class="navbar-toggler navbar-toggler-right"
