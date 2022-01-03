@@ -50,7 +50,7 @@ const Header = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <a href={url}>{text}</a>
+                    <a href={url} className="links-text">{text}</a>
                   </li>
                 );
               })}

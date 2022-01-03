@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -10,25 +12,45 @@ import Cities from "./components/Cities";
 import Footer from "./components/Footer";
 
 // pages
-import About from "./pages/About"
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import City from "./pages/SingleCity";
+import Error from "./pages/Error";
+
+//
+import items from "./data/data";
+
 function App() {
+  const [cities, setCities] = useState(items);
+
   return (
     <>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Header></Header>
-            <Searchbar></Searchbar>
-            <FirstContent></FirstContent>
-            <MiddleContent></MiddleContent>
-            <Cities></Cities>
-            <Footer></Footer>
-          </Route>
-          <Route path="/About">
-            <About />
-          </Route>
-        </Switch>
-      </Router>
+      <>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Header></Header>
+              <Searchbar items={cities}></Searchbar>
+              <FirstContent></FirstContent>
+              <MiddleContent></MiddleContent>
+              <Cities></Cities>
+              <Footer></Footer>
+            </Route>
+            <Route path="/About">
+              <About />
+            </Route>
+            <Route path="/Contact">
+              <Contact />
+            </Route>
+            <Route path="/city/:name">
+              <City items={cities} />
+            </Route>
+            <Route path="*">
+              <Error />
+            </Route>
+          </Switch>
+        </Router>
+      </>
     </>
   );
 }

@@ -7,6 +7,11 @@ const About = () => {
     <div>
       <Header></Header>
       <Searchbar></Searchbar>
+      <div>
+        <div className="firstTextContainer">
+          About page stuff
+        </div>
+      </div>
     </div>
   );
 };
