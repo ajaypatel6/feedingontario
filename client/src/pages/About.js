@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Searchbar from "../components/Searchbar";
+import ShortFooter from "../components/ShortFooter";
 
 const About = () => {
   return (
@@ -8,10 +9,11 @@ const About = () => {
       <Header></Header>
       <Searchbar></Searchbar>
       <div>
-        <div className="firstTextContainer">
-          About page stuff
+        <div className="aboutContainer">
+          <h2>About</h2>
         </div>
       </div>
+      <ShortFooter></ShortFooter>
     </div>
   );
 };

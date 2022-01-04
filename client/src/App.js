@@ -49,10 +49,10 @@ function App() {
               <Toronto />
             </Route>
             <Route path="/TorontoBanks">
-              <Toronto />
+              <TorontoBanks />
             </Route>
             <Route path="/TorontoMeals">
-              <Toronto />
+              <TorontoMeals />
             </Route>
             <Route path="/city/:name">
               <City items={cities} />

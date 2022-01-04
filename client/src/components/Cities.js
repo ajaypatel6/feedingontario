@@ -1,7 +1,11 @@
 import React from "react";
+import cities from "../data/data";
+import { Link } from "react-router-dom";
 
 const Cities = () => {
-  const searchCity = () => {};
+  const searchCity = () => {
+    alert('bottom serach')
+  };
 
   return (
     <div className="cityStuff">
@@ -15,14 +19,14 @@ const Cities = () => {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          Find your City{" "}
+          Find your City
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li>
-            <a class="dropdown-item" href="#">
-              Toronto
+        <a class="dropdown-item" href="#">
+              <Link to={`/Toronto`} className="btn good-btn">
+                Toronto
+              </Link>
             </a>
-          </li>
           <li>
             <a class="dropdown-item" href="#">
               Hamilton
@@ -34,7 +38,7 @@ const Cities = () => {
             </a>
           </li>
         </ul>
-      </div>{" "}
+      </div>
       <div>Or</div>
       <div class="">
         <div class="search">

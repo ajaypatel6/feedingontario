@@ -1,11 +1,61 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import banks from "../data/foodbanks";
+import meals from "../data/mealprograms";
 
 const Programs = () => {
-    return (
-        <div>
-            {/* style to make it under the stuff.  */}
-        </div>
-    )
-}
+  return (
+    <div>
+      <div className="foodProgramsContainer">
+        {banks.map((project) => {
+          const { id, name, image, text, contact, description } = project;
+          return (
+            <article key={id} className="menu-item">
+              <img src={image} alt={name} className="photo" />
 
-export default Programs
+              <div className="item-info">
+                <header>
+                  <h4 className="project-title">{name}</h4>
+                  {/* <img src={mainLogo} alt={github} className="smaller" /> */}
+                </header>
+                <p className="item-text">{description}</p>
+
+                <p className="item-text">{text}</p>
+                <p className="item-text">{contact}</p>
+
+                <Link to={`/banks/${name}`} className="btn btn-primary btn-sm">
+                  See more
+                </Link>
+              </div>
+            </article>
+          );
+        })}
+        {meals.map((project) => {
+          const { id, name, image, text, contact, description } = project;
+          return (
+            <article key={id} className="menu-item">
+              <img src={image} alt={name} className="photo" />
+
+              <div className="item-info">
+                <header>
+                  <h4 className="project-title">{name}</h4>
+                  {/* <img src={mainLogo} alt={github} className="smaller" /> */}
+                </header>
+                <p className="item-text">{description}</p>
+
+                <p className="item-text">{text}</p>
+                <p className="item-text">{contact}</p>
+
+                <Link to={`/banks/${name}`} className="btn btn-primary btn-sm">
+                  See more
+                </Link>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Programs;

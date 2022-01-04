@@ -2,28 +2,47 @@ import React from "react";
 import Header from "../components/Header";
 import CityBar from "../components/CityBar";
 import Programs from "../components/Programs";
+
 import ShortFooter from "../components/ShortFooter";
 
-// data
-import banks from "../data/foodbanks";
-import meals from "../data/mealprograms";
+
+//
+import { Link } from "react-router-dom";
+
+//pages
 
 const Toronto = () => {
   const searchPrograms = () => {
     alert("initiating search");
   };
 
+  // sorting the stuff into
+
   return (
     <div>
       <Header></Header>
       <CityBar></CityBar>
       <div>
-        <div className="firstTextContainer">
-          <h1>Find food near you</h1>
-          <button>Find food banks</button>
-          <button>Find meal programs</button>
+        <div className="torontoContainer">
+          <h2>Find food near you</h2>
+          <div className="programButtons">
+            <Link
+              to={`/TorontoBanks`}
+              className="btn btn btn-primary btn-lg btn-block"
+            >
+              Food banks
+            </Link>
+
+            <Link
+              to={`/TorontoMeals`}
+              className="btn btn btn-secondary btn-lg btn-block"
+            >
+              Meal programs{" "}
+            </Link>
+          </div>
           <div>or</div>
-          <div class="">
+
+          <div class="centerSearch">
             <div className="search">
               <input
                 id="citySearch"
@@ -41,11 +60,11 @@ const Toronto = () => {
                 Search
               </button>
             </div>
-          </div>{" "}
+          </div>
         </div>
       </div>
       <Programs></Programs>
-      {/* maybe diff footer for this variation */}
+      {/* Put all the programs here (meals+banks) */}
       <ShortFooter></ShortFooter>
     </div>
   );
