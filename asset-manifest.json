@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github.io/feedingontario/static/css/main.fe062073.chunk.css",
+    "main.js": "/github.io/feedingontario/static/js/main.928eec34.chunk.js",
+    "main.js.map": "/github.io/feedingontario/static/js/main.928eec34.chunk.js.map",
+    "runtime-main.js": "/github.io/feedingontario/static/js/runtime-main.87107e10.js",
+    "runtime-main.js.map": "/github.io/feedingontario/static/js/runtime-main.87107e10.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/github.io/feedingontario/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.add470dc.chunk.js": "/github.io/feedingontario/static/js/2.add470dc.chunk.js",
+    "static/js/2.add470dc.chunk.js.map": "/github.io/feedingontario/static/js/2.add470dc.chunk.js.map",
+    "index.html": "/github.io/feedingontario/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/github.io/feedingontario/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.fe062073.chunk.css.map": "/github.io/feedingontario/static/css/main.fe062073.chunk.css.map",
+    "static/js/2.add470dc.chunk.js.LICENSE.txt": "/github.io/feedingontario/static/js/2.add470dc.chunk.js.LICENSE.txt",
+    "static/media/favicon.b58a5419.png": "/github.io/feedingontario/static/media/favicon.b58a5419.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87107e10.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.add470dc.chunk.js",
+    "static/css/main.fe062073.chunk.css",
+    "static/js/main.928eec34.chunk.js"
+  ]
+}
