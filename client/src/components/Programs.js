@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import banks from "../data/foodbanks";
 import meals from "../data/mealprograms";
+import SingleBank from "../pages/SingleBank";
 
 const Programs = () => {
   return (
@@ -23,7 +24,7 @@ const Programs = () => {
                 <p className="item-text">{text}</p>
                 <p className="item-text">{contact}</p>
 
-                <Link to={`/banks/${name}`} className="btn btn-primary btn-sm">
+                <Link to={`/SingleBank/${name}`} className="btn btn-primary btn-sm">
                   See more
                 </Link>
               </div>
@@ -46,7 +47,10 @@ const Programs = () => {
                 <p className="item-text">{text}</p>
                 <p className="item-text">{contact}</p>
 
-                <Link to={`/banks/${name}`} className="btn btn-primary btn-sm">
+                <Link
+                  to={`/SingleMeal/${name}`}
+                  className="btn btn-primary btn-sm"
+                >
                   See more
                 </Link>
               </div>

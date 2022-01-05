@@ -24,7 +24,7 @@ const MealPrograms = () => {
                 <p className="item-text">{text}</p>
                 <p className="item-text">{contact}</p>
 
-                <Link to={`/banks/${name}`} className="btn btn-primary btn-sm">
+                <Link to={`/SingleMeal/${name}`} className="btn btn-primary btn-sm">
                   See more
                 </Link>
               </div>

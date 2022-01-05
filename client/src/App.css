@@ -230,7 +230,7 @@
 .foodProgramsContainer {
   position: relative;
   /* bottom: 15%; */
-  top: 450px;
+  top: 380px;
   width: 80%;
   left: 10%;
   right: 10%;
@@ -242,9 +242,9 @@
 }
 .menu-item {
   border: 1px solid red;
-  margin-left: 33%;
+  margin-left: 20%;
   /* display: grid; */
-  max-width: 30rem;
+  max-width: 50rem;
   margin-bottom: 0.5rem;
 }
 .firstImageContainer {

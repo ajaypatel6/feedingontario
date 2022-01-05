@@ -5,7 +5,6 @@ import Programs from "../components/Programs";
 
 import ShortFooter from "../components/ShortFooter";
 
-
 //
 import { Link } from "react-router-dom";
 
@@ -40,7 +39,7 @@ const Toronto = () => {
               Meal programs{" "}
             </Link>
           </div>
-          <div>or</div>
+          {/* <div>or</div>
 
           <div class="centerSearch">
             <div className="search">
@@ -60,7 +59,7 @@ const Toronto = () => {
                 Search
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Programs></Programs>

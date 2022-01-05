@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Cities = () => {
   const searchCity = () => {
-    alert('bottom serach')
+    alert("bottom serach");
   };
 
   return (
@@ -22,11 +22,11 @@ const Cities = () => {
           Find your City
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <a class="dropdown-item" href="#">
-              <Link to={`/Toronto`} className="btn good-btn">
-                Toronto
-              </Link>
-            </a>
+          <a class="dropdown-item" href="#">
+            <Link to={`/Toronto`} className="btn good-btn">
+              Toronto
+            </Link>
+          </a>
           <li>
             <a class="dropdown-item" href="#">
               Hamilton
