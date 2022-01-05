@@ -10,8 +10,8 @@ const Cities = () => {
   return (
     <div className="cityStuff">
       <div className="helperText">Dont know where to start?</div>
-      <div> Select city </div>
-      <div class="dropdown">
+      <div className="helperText"> Select city </div>
+      {/*  <div class="dropdown">
         <button
           class="btn btn-secondary dropdown-toggle"
           type="button"
@@ -38,10 +38,10 @@ const Cities = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <div>Or</div>
+      </div> */}
+      {/* <div>Or</div> */}
       <div class="">
-        <div class="search">
+        {/* <div class="search">
           <input
             id="citySearch"
             type="text"
@@ -57,8 +57,17 @@ const Cities = () => {
           >
             Search
           </button>
+        </div> */}
+        <div className="cityButtonContainer">
+          {cities.map((link) => {
+            const { id, name } = link;
+            return (
+              <Link to={`/${name}`} className="btn-city">
+                {name}
+              </Link>
+            );
+          })}
         </div>
-        <div></div>
       </div>
     </div>
   );

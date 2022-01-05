@@ -51,12 +51,20 @@
 }
 
 .footer {
-  position: absolute;
+  /* position: absolute;
   left: 0px;
-  bottom: -1000px;
+  bottom: -1100px;
   height: 100px;
   width: 100%;
   background: #999;
+  display: inline-block; */
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 100px;
+  background: grey;
 }
 
 .footer-text {
@@ -86,6 +94,7 @@
   height: 100px;
   width: 100%;
   background: #999;
+  display: inline-block;
 }
 
 .searchBar {
@@ -235,16 +244,25 @@
   left: 10%;
   right: 10%;
   height: 500px;
-  background: #f3f2f2;
+  background: #e4e4e4;
   color: rgb(2, 2, 2);
   text-align: center;
   overflow: scroll;
 }
+
+.single-img {
+  height: 250px;
+  width: 500px;
+}
+.mealContainer {
+  border: 1px solid red;
+  background-color: #fdd3da;
+}
 .menu-item {
   border: 1px solid red;
-  margin-left: 20%;
+  /* margin-left: 20%; */
   /* display: grid; */
-  max-width: 50rem;
+  max-width: 100%;
   margin-bottom: 0.5rem;
 }
 .firstImageContainer {
@@ -255,9 +273,10 @@
   width: 80%;
   left: 10%;
   right: 10%;
-  height: 300px;
+  height: 500px;
   /* overflow:scroll; */
   /* padding-top: 10%; */
+  position: relative;
 
   /* height: 100%!important; */
 
@@ -304,7 +323,7 @@
 }
 
 .cityStuff {
-  border: 1px solid rgb(0, 255, 42);
+  /* border: 1px solid rgb(0, 255, 42); */
   position: relative;
   /* display: inline-block; */
   top: 650px;
@@ -312,12 +331,23 @@
   left: 10%;
   right: 10%;
   height: 300px;
+
 }
 
 .links-text {
   margin-left: 30px;
   letter-spacing: 3px;
   color: #c1e2c8;
+}
+
+.btn-city {
+  color: #c1e2c8;
+  background: #ff395a;
+
+  margin-left: 10px;
+  padding: 10px 20px;
+
+  border-radius: 6px;
 }
 
 .btn-back {
@@ -337,6 +367,32 @@
 .btn-back:hover {
   background: rgb(0, 234, 255);
   color: rgb(4, 3, 46);
+}
+
+.smallImg {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.firstLeftImage {
+  margin-right: 80%;
+}
+
+.firstRightImage {
+  margin-left: 80%;
+}
+
+.helperText {
+  margin-left: 42%;
+}
+
+.cityButtonContainer {
+  margin-left: 15%;
+
+  margin-top: 15px;
+  /* align-items: center; */
 }
 .wrap {
   margin: 0 auto;

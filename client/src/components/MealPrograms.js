@@ -9,10 +9,10 @@ const MealPrograms = () => {
     <>
       <div className="foodProgramsContainer">
         {meals.map((project) => {
-          const { id, name, image, text, contact, description } = project;
+          const { id, name, picture, text, contact, description } = project;
           return (
             <article key={id} className="menu-item">
-              <img src={image} alt={name} className="photo" />
+              <img src={picture} alt={name} className="single-img" />
 
               <div className="item-info">
                 <header>
@@ -24,7 +24,10 @@ const MealPrograms = () => {
                 <p className="item-text">{text}</p>
                 <p className="item-text">{contact}</p>
 
-                <Link to={`/SingleMeal/${name}`} className="btn btn-primary btn-sm">
+                <Link
+                  to={`/SingleMeal/${name}`}
+                  className="btn btn-primary btn-sm"
+                >
                   See more
                 </Link>
               </div>

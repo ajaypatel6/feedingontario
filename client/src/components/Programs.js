@@ -9,22 +9,28 @@ const Programs = () => {
     <div>
       <div className="foodProgramsContainer">
         {banks.map((project) => {
-          const { id, name, image, text, contact, description } = project;
+          const { id, name, picture, text, contact, description, location } =
+            project;
           return (
             <article key={id} className="menu-item">
-              <img src={image} alt={name} className="photo" />
+              <img src={picture} alt={name} className="single-img" />
 
               <div className="item-info">
                 <header>
                   <h4 className="project-title">{name}</h4>
                   {/* <img src={mainLogo} alt={github} className="smaller" /> */}
                 </header>
-                <p className="item-text">{description}</p>
+                <p className="item-text">{location}</p>
 
+                {/* <p className="item-text">{description}</p> */}
+                {/* 
                 <p className="item-text">{text}</p>
-                <p className="item-text">{contact}</p>
+                <p className="item-text">{contact}</p> */}
 
-                <Link to={`/SingleBank/${name}`} className="btn btn-primary btn-sm">
+                <Link
+                  to={`/SingleBank/${name}`}
+                  className="btn btn-primary btn-sm"
+                >
                   See more
                 </Link>
               </div>
@@ -32,20 +38,23 @@ const Programs = () => {
           );
         })}
         {meals.map((project) => {
-          const { id, name, image, text, contact, description } = project;
+          const { id, name, picture, text, contact, description, location } =
+            project;
           return (
             <article key={id} className="menu-item">
-              <img src={image} alt={name} className="photo" />
+              <img src={picture} alt={name} className="single-img" />
 
               <div className="item-info">
                 <header>
                   <h4 className="project-title">{name}</h4>
                   {/* <img src={mainLogo} alt={github} className="smaller" /> */}
                 </header>
-                <p className="item-text">{description}</p>
+                <p className="item-text">{location}</p>
+
+                {/* <p className="item-text">{description}</p>
 
                 <p className="item-text">{text}</p>
-                <p className="item-text">{contact}</p>
+                <p className="item-text">{contact}</p> */}
 
                 <Link
                   to={`/SingleMeal/${name}`}

@@ -27,19 +27,19 @@ const Searchbar = ({ items }) => {
             {/* <Link to={`/project/${name}`} className="btn good-btn">
               See more
             </Link> */}
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" href="">
               <Link to={`/Toronto`} className="btn good-btn">
                 Toronto
               </Link>
             </a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" href="">
               Hamilton
             </a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" href="">
               Niagara
             </a>
           </li>

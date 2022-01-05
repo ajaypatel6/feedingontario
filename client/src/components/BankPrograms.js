@@ -9,10 +9,10 @@ const BankPrograms = () => {
     <>
       <div className="foodProgramsContainer">
         {banks.map((project) => {
-          const { id, name, image, text, contact, description } = project;
+          const { id, name, picture, text, contact, description } = project;
           return (
             <article key={id} className="menu-item">
-              <img src={image} alt={name} className="photo" />
+              <img src={picture} alt={name} className="single-img" />
 
               <div className="item-info">
                 <header>

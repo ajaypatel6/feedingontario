@@ -6,10 +6,6 @@ import logo from "../images/Logo.png";
 import { links } from "../data/links";
 
 const Header = () => {
-  // const [showLinks, setShowLinks] = useState(false);
-
-  // const linksContainerRef = useRef(null);
-  // const linksRef = useRef(null);
 
   // useEffect(() => {
   //   const linksHeight = linksRef.current.getBoundingClientRect().height;
