@@ -11,7 +11,7 @@ const Searchbar = ({ items }) => {
   return (
     <div className="searchBar">
       <div className="searchBarText">Access Food In your Community</div>
-      <div>feeind ontario, workin together towards hunger games</div>
+      <div>Feeding Ontario, Working together towards a hunger-free community</div>
       <div class="dropdown">
         <button
           class="btn btn-secondary dropdown-toggle"

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import { FaBars } from "react-icons/fa";
-import logo from "../images/Logo.png";
+import logo from "../images/FeedingWhite.png";
 
 import { links } from "../data/links";
 
@@ -25,7 +25,7 @@ const Header = () => {
         <div class="container px-4 px-lg-5">
           <a class="navbar-brand" href="/">
             <div className="topLogo">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" className="smallLogo" />
             </div>
           </a>
           <button

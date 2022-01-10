@@ -1,38 +1,27 @@
-import ima from "../images/favicon.png";
+import cans from "../images/cans.jpg";
+import happy from "../images/happy.jpg";
+import eatingoutside from "../images/eatingoutside.jpg";
+import mealprep from "../images/mealprep.jpg";
 
 const home = [
   {
     id: 1,
-    image: ima,
-    description: "gray",
+    image: eatingoutside,
+    description: "eatingoutside",
   },
   {
     id: 2,
-    image: ima,
-    description: "gray",
+    image: mealprep,
+    description: "mealprep",
   },
   {
     id: 3,
-    image:
-      "https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png",
-    description: "gray",
+    image: happy,
+    description: "happy",
   },
   {
     id: 4,
-    image:
-      "https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png",
-    description: "gray",
-  },
-  {
-    id: 5,
-    image:
-      "https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png",
-    description: "gray",
-  },
-  {
-    id: 6,
-    image:
-      "https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png",
+    image: cans,
     description: "gray",
   },
 ];

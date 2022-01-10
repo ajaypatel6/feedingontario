@@ -5,8 +5,9 @@ const FirstContent = () => {
   return (
     <>
       <div>
+        <div className="firstTextContainer">Food is a human right</div>
         <div className="firstTextContainer">
-          Food is a human right <b>Food security is important </b>
+          <b>Food security is important </b>
         </div>
         <div className="firstImageContainer">
           <div className="firstLeftImage">
@@ -17,7 +18,6 @@ const FirstContent = () => {
             Image 2<h2>{home[1].description}</h2>
             <img src={home[1].image} className="smallImg" />
           </div>{" "}
-          <div>Image 3</div>
         </div>
       </div>
     </>
