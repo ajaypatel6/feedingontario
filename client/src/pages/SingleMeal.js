@@ -32,7 +32,7 @@ const SingleMeal = () => {
         <div className="torontoContainer">
           <div className="programButtons">
             <Link
-              to={`/Toronto`}
+              to={`/Hamilton`}
               className="btn btn btn-primary btn-lg btn-block"
             >
               back

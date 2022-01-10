@@ -5,7 +5,7 @@ import BankPrograms from "../components/BankPrograms";
 import ShortFooter from "../components/ShortFooter";
 import { Link } from "react-router-dom";
 
-const TorontoBanks = () => {
+const HamiltonBanks = () => {
   const searchPrograms = () => {
     alert("initiating search");
   };
@@ -18,7 +18,7 @@ const TorontoBanks = () => {
         <div className="torontoContainer">
           <div className="programButtons">
             <Link
-              to={`/Toronto`}
+              to={`/Hamilton`}
               className="btn btn btn-primary btn-lg btn-block"
             >
               back
@@ -34,4 +34,4 @@ const TorontoBanks = () => {
   );
 };
 
-export default TorontoBanks;
+export default HamiltonBanks;

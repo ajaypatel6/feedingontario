@@ -4,23 +4,24 @@ import { Link } from "react-router-dom";
 const Searchbar = ({ items }) => {
   const searchCity = () => {
     alert("initiating search");
-
   };
   // const {} = items;
 
   return (
     <div className="searchBar">
       <div className="searchBarText">Access Food In your Community</div>
-      <div>Feeding Ontario, Working together towards a hunger-free community</div>
+      <div className="searchBarText2">
+        Feeding Ontario, Working together towards a hunger-free community
+      </div>
       <div class="dropdown">
         <button
-          class="btn btn-secondary dropdown-toggle"
+          class="btn btn-primary dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          Find your City{" "}
+          Find your City
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
           <li>
@@ -28,14 +29,14 @@ const Searchbar = ({ items }) => {
               See more
             </Link> */}
             <a class="dropdown-item" href="">
-              <Link to={`/Toronto`} className="btn good-btn">
-                Toronto
+              <Link to={`/Hamilton`} className="btn good-btn">
+                Hamilton
               </Link>
             </a>
           </li>
           <li>
             <a class="dropdown-item" href="">
-              Hamilton
+              Toronto
             </a>
           </li>
           <li>

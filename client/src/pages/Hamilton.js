@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 //pages
 
-const Toronto = () => {
+const Hamilton = () => {
   const searchPrograms = () => {
     alert("initiating search");
   };
@@ -24,19 +24,28 @@ const Toronto = () => {
       <div>
         <div className="torontoContainer">
           <h2>Find food near you</h2>
-          <div className="programButtons">
+
+          <div className="">
             <Link
-              to={`/TorontoBanks`}
+              to={`/HamiltonBanks`}
               className="btn btn btn-primary btn-lg btn-block"
             >
               Food banks
             </Link>
 
             <Link
-              to={`/TorontoMeals`}
+              to={`/HamiltonMeals`}
               className="btn btn btn-secondary btn-lg btn-block"
             >
               Meal programs{" "}
+            </Link>
+          </div>
+          <div className="programButtons">
+            <Link
+              to={`/`}
+              className="btn btn btn-info btn-lg btn-block"
+            >
+              back home
             </Link>
           </div>
           {/* <div>or</div>
@@ -69,4 +78,4 @@ const Toronto = () => {
   );
 };
 
-export default Toronto;
+export default Hamilton;

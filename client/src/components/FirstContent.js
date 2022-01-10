@@ -11,8 +11,8 @@ const FirstContent = () => {
         </div>
         <div className="firstImageContainer">
           <div className="firstLeftImage">
-            Image 1<h2>{home[0].description}</h2>
             <img src={home[0].image} className="smallImg" />
+            Image 1<h2>{home[0].description}</h2>
           </div>
           <div className="firstRightImage">
             Image 2<h2>{home[1].description}</h2>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ShortFooter from "../components/ShortFooter";
 import MealPrograms from "../components/MealPrograms";
 
-const TorontoMeals = () => {
+const HamiltonMeals = () => {
   return (
     <div>
       <Header></Header>
@@ -14,7 +14,7 @@ const TorontoMeals = () => {
         <div className="torontoContainer">
           <div className="programButtons">
             <Link
-              to={`/Toronto`}
+              to={`/Hamilton`}
               className="btn btn btn-primary btn-lg btn-block"
             >
               back
@@ -31,4 +31,4 @@ const TorontoMeals = () => {
   );
 };
 
-export default TorontoMeals;
+export default HamiltonMeals;

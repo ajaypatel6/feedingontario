@@ -7,7 +7,7 @@ const CityBar = ({ items }) => {
 
   return (
     <div className="cityBar">
-      <h1>Toronto</h1>
+      <h1>Hamilton</h1>
     </div>
   );
 };

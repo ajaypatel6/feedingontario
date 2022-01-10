@@ -16,9 +16,9 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-import Toronto from "./pages/Toronto";
-import TorontoBanks from "./pages/TorontoBanks";
-import TorontoMeals from "./pages/TorontoMeals";
+import Hamilton from "./pages/Hamilton";
+import HamiltonBanks from "./pages/HamiltonBanks";
+import HamiltonMeals from "./pages/HamiltonMeals";
 import SingleBank from "./pages/SingleBank";
 import SingleMeal from "./pages/SingleMeal";
 
@@ -49,14 +49,14 @@ function App() {
             <Route path="/Contact">
               <Contact />
             </Route>
-            <Route path="/Toronto">
-              <Toronto />
+            <Route path="/Hamilton">
+              <Hamilton />
             </Route>
-            <Route path="/TorontoBanks">
-              <TorontoBanks />
+            <Route path="/HamiltonBanks">
+              <HamiltonBanks />
             </Route>
-            <Route path="/TorontoMeals">
-              <TorontoMeals />
+            <Route path="/HamiltonMeals">
+              <HamiltonMeals />
             </Route>
             <Route path="/SingleBank/:name">
               <SingleBank items={BankPrograms} />
