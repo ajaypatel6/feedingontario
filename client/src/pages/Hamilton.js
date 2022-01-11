@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import CityBar from "../components/CityBar";
+import CityBar from "../components/Bars/CityBar";
 import Programs from "../components/Programs";
 
 import ShortFooter from "../components/ShortFooter";
@@ -43,36 +43,14 @@ const Hamilton = () => {
           <div className="programButtons">
             <Link
               to={`/`}
-              className="btn btn btn-info btn-lg btn-block"
+              className="btn btn btn-info btn-lg btn-block btn-back"
             >
-              back home
+              Back
             </Link>
           </div>
-          {/* <div>or</div>
-
-          <div class="centerSearch">
-            <div className="search">
-              <input
-                id="citySearch"
-                type="text"
-                class="searchTerm"
-                placeholder="Search for city"
-              ></input>
-              <button
-                type="submit"
-                class="searchButton"
-                onClick={() =>
-                  searchPrograms(document.getElementById("citySearch").value)
-                }
-              >
-                Search
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
       <Programs></Programs>
-      {/* Put all the programs here (meals+banks) */}
       <ShortFooter></ShortFooter>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Searchbar from "../components/Searchbar";
+import Searchbar from "../components/Bars/Searchbar";
 import ShortFooter from "../components/ShortFooter";
 
 const Contact = () => {

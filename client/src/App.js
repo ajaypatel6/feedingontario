@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 // components
 import Header from "./components/Header";
-import Searchbar from "./components/Searchbar";
+import Searchbar from "./components/Bars/Searchbar";
 import FirstContent from "./components/FirstContent";
 import MiddleContent from "./components/MiddleContent";
 import Cities from "./components/Cities";

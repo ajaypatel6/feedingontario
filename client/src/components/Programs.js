@@ -6,30 +6,25 @@ import SingleBank from "../pages/SingleBank";
 
 const Programs = () => {
   return (
-    <div>
+    <>
       <div className="foodProgramsContainer">
         {banks.map((project) => {
           const { id, name, picture, text, contact, description, location } =
             project;
           return (
             <article key={id} className="menu-item">
-              <img src={picture} alt={name} className="single-img" />
-
               <div className="item-info">
                 <header>
                   <h4 className="project-title">{name}</h4>
-                  {/* <img src={mainLogo} alt={github} className="smaller" /> */}
+                  <img src={picture} alt={name} className="single-img" />
                 </header>
-                <p className="item-text">{location}</p>
+                <p className="project-location">{location}</p>
 
-                {/* <p className="item-text">{description}</p> */}
-                {/* 
-                <p className="item-text">{text}</p>
-                <p className="item-text">{contact}</p> */}
+                <p className="project-desc">{description}</p>
 
                 <Link
                   to={`/SingleBank/${name}`}
-                  className="btn btn-primary btn-sm"
+                  className="btn btn-info seemore m-2"
                 >
                   See more
                 </Link>
@@ -42,23 +37,18 @@ const Programs = () => {
             project;
           return (
             <article key={id} className="menu-item">
-              <img src={picture} alt={name} className="single-img" />
-
               <div className="item-info">
                 <header>
                   <h4 className="project-title">{name}</h4>
-                  {/* <img src={mainLogo} alt={github} className="smaller" /> */}
+                  <img src={picture} alt={name} className="single-img" />
                 </header>
-                <p className="item-text">{location}</p>
+                <p className="project-location">{location}</p>
 
-                {/* <p className="item-text">{description}</p>
-
-                <p className="item-text">{text}</p>
-                <p className="item-text">{contact}</p> */}
+                <p className="project-desc">{description}</p>
 
                 <Link
                   to={`/SingleMeal/${name}`}
-                  className="btn btn-primary btn-sm"
+                  className="btn btn-success seemore m-2"
                 >
                   See more
                 </Link>
@@ -67,7 +57,7 @@ const Programs = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

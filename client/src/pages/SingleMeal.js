@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
-import CityBar from "../components/CityBar";
+import SingleMealBar from "../components/Bars/SingleMealBar";
 import ShortFooter from "../components/ShortFooter";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -27,7 +27,7 @@ const SingleMeal = () => {
   return (
     <div>
       <Header></Header>
-      <CityBar>Meals</CityBar>
+      <SingleMealBar>Meals</SingleMealBar>
       <div>
         <div className="torontoContainer">
           <div className="programButtons">
@@ -38,16 +38,15 @@ const SingleMeal = () => {
               back
             </Link>
           </div>
-          <h1>Meal Program</h1>
+          <h2>Meal Program</h2>
           <div className="mealContainer">
-            <h2>{mealName} </h2>
+            <h2 className="place">{mealName} </h2>
             <img src={singleMeal[0].picture} className="single-img" />
 
-            <h2>{singleMeal[0].description} </h2>
-            <h2>{singleMeal[0].location} </h2>
-            <h2>{singleMeal[0].contact} </h2>
-            <h2>{singleMeal[0].map} </h2>
-
+            <h2 className="description">{singleMeal[0].description} </h2>
+            <h2 className="location">{singleMeal[0].location} </h2>
+            <h2 className="contact">{singleMeal[0].contact} </h2>
+            <h2 className="map">{singleMeal[0].map} </h2>
           </div>
         </div>
       </div>

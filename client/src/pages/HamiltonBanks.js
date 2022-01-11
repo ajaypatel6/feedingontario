@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import CityBar from "../components/CityBar";
+import BankBar from "../components/Bars/BankBar";
 import BankPrograms from "../components/BankPrograms";
 import ShortFooter from "../components/ShortFooter";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ const HamiltonBanks = () => {
   return (
     <div>
       <Header></Header>
-      <CityBar>Meals</CityBar>
+      <BankBar>Meals</BankBar>
       <div>
         <div className="torontoContainer">
           <div className="programButtons">

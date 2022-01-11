@@ -57,7 +57,7 @@ const Searchbar = ({ items }) => {
           ></input>
           <button
             type="submit"
-            class="searchButton"
+            class="searchButton btn btn-primary"
             onClick={() =>
               searchCity(document.getElementById("citySearch").value)
             }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
-import CityBar from "../components/CityBar";
+import SingleBankBar from "../components/Bars/SingleBankBar";
 import ShortFooter from "../components/ShortFooter";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -19,13 +19,12 @@ const SingleBank = () => {
 
     setSingleBank(bankData);
     console.log(singleBank);
-
   }, [bankName]);
 
   return (
     <div>
       <Header></Header>
-      <CityBar>Meals</CityBar>
+      <SingleBankBar>Meals</SingleBankBar>
       <div>
         <div className="torontoContainer">
           <div className="programButtons">
@@ -38,12 +37,15 @@ const SingleBank = () => {
           </div>
           <h2>Food bank</h2>
           <div className="mealContainer">
-            <h2>{bankName} </h2>
+            <h2 className="place">{bankName} </h2>
             <img src={singleBank[0].picture} className="single-img" />
 
-            <h2>{singleBank[0].description} </h2>
-            <h2>{singleBank[0].location} </h2>
-            <h2>{singleBank[0].contact} </h2>
+            <h2 className="description">{singleBank[0].description} </h2>
+            <h2 className="location">{singleBank[0].location} </h2>
+            <h2 className="contact">{singleBank[0].contact} </h2>
+            <div>
+              <h2 className="map">{singleBank[0].map} </h2>
+            </div>
           </div>
         </div>
       </div>

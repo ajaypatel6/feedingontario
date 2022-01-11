@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import CityBar from "../components/CityBar";
+import MealBar from "../components/Bars/MealBar";
 import { Link } from "react-router-dom";
 import ShortFooter from "../components/ShortFooter";
 import MealPrograms from "../components/MealPrograms";
@@ -9,7 +9,7 @@ const HamiltonMeals = () => {
   return (
     <div>
       <Header></Header>
-      <CityBar>Meals</CityBar>
+      <MealBar>Meals</MealBar>
       <div>
         <div className="torontoContainer">
           <div className="programButtons">
