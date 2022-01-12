@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/feedingontario/static/css/main.474ea5e8.chunk.css",
-    "main.js": "/feedingontario/static/js/main.928eec34.chunk.js",
-    "main.js.map": "/feedingontario/static/js/main.928eec34.chunk.js.map",
+    "main.css": "/feedingontario/static/css/main.89de07e2.chunk.css",
+    "main.js": "/feedingontario/static/js/main.572c371a.chunk.js",
+    "main.js.map": "/feedingontario/static/js/main.572c371a.chunk.js.map",
     "runtime-main.js": "/feedingontario/static/js/runtime-main.93694f6f.js",
     "runtime-main.js.map": "/feedingontario/static/js/runtime-main.93694f6f.js.map",
     "static/css/2.e6c1e8c5.chunk.css": "/feedingontario/static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.add470dc.chunk.js": "/feedingontario/static/js/2.add470dc.chunk.js",
-    "static/js/2.add470dc.chunk.js.map": "/feedingontario/static/js/2.add470dc.chunk.js.map",
+    "static/js/2.1829a87e.chunk.js": "/feedingontario/static/js/2.1829a87e.chunk.js",
+    "static/js/2.1829a87e.chunk.js.map": "/feedingontario/static/js/2.1829a87e.chunk.js.map",
     "index.html": "/feedingontario/index.html",
     "static/css/2.e6c1e8c5.chunk.css.map": "/feedingontario/static/css/2.e6c1e8c5.chunk.css.map",
-    "static/css/main.474ea5e8.chunk.css.map": "/feedingontario/static/css/main.474ea5e8.chunk.css.map",
-    "static/js/2.add470dc.chunk.js.LICENSE.txt": "/feedingontario/static/js/2.add470dc.chunk.js.LICENSE.txt",
-    "static/media/favicon.b58a5419.png": "/feedingontario/static/media/favicon.b58a5419.png"
+    "static/css/main.89de07e2.chunk.css.map": "/feedingontario/static/css/main.89de07e2.chunk.css.map",
+    "static/js/2.1829a87e.chunk.js.LICENSE.txt": "/feedingontario/static/js/2.1829a87e.chunk.js.LICENSE.txt",
+    "static/media/FeedingWhite.5b0c30a2.png": "/feedingontario/static/media/FeedingWhite.5b0c30a2.png",
+    "static/media/App.css": "/feedingontario/static/media/mealName.1874426e.jpg",
+    "static/media/banks.da7bd231.jpg": "/feedingontario/static/media/banks.da7bd231.jpg",
+    "static/media/cans.8885c24f.jpg": "/feedingontario/static/media/cans.8885c24f.jpg",
+    "static/media/eatingoutside.f367b18e.jpg": "/feedingontario/static/media/eatingoutside.f367b18e.jpg",
+    "static/media/happy.a032ef64.jpg": "/feedingontario/static/media/happy.a032ef64.jpg",
+    "static/media/mealprep.bf740a95.jpg": "/feedingontario/static/media/mealprep.bf740a95.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.93694f6f.js",
     "static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.add470dc.chunk.js",
-    "static/css/main.474ea5e8.chunk.css",
-    "static/js/main.928eec34.chunk.js"
+    "static/js/2.1829a87e.chunk.js",
+    "static/css/main.89de07e2.chunk.css",
+    "static/js/main.572c371a.chunk.js"
   ]
 }
