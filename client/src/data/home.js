@@ -8,42 +8,29 @@ const home = [
   {
     id: 1,
     image: eatingoutside,
-    description:
-      "Community  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis velit.",
+    description: "Become part of a community!      ",
   },
   {
     id: 2,
-    image: mealprep,
-    description:
-      "Teamwork  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis velit.",
+    image: cans,
+    description: "Access to high quality food!      ",
   },
   {
     id: 3,
-    image: happy,
+    image: mealprep,
     description:
-      "Happy to help community  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis velit. Etiam porttitor sapien eget tincidunt ornare. Nunc rhoncus lacinia nisl, at rhoncus eros. Donec eget interdum dolor. Vivamus eu nisl eros. Donec sit amet sapien rutrum, sodales ante eget, convallis tellus. Nam rhoncus augue id euismod consectetur. In at est id mauris mollis congue. Mauris blandit felis vitae sapien sodales interdum at quis nunc. Fusce accumsan porttitor lorem tempus iaculis.    ",
+      "Feeding Ontario works with the best food banks and meal programs, to ensure safety and respect for all members.      ",
   },
   {
     id: 4,
-    image: cans,
-    description:
-      "Resources  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis velit.",
+    image: happy,
+    description: "Run by top tier volunteers      ",
   },
   {
     id: 5,
     image: banks,
     description:
-      "There are resources for you  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis velit. Etiam porttitor sapien eget tincidunt ornare. Nunc rhoncus lacinia nisl, at rhoncus eros. Donec eget interdum dolor. Vivamus eu nisl eros. Donec sit amet sapien rutrum, sodales ante eget, convallis tellus. Nam rhoncus augue id euismod consectetur. In at est id mauris mollis congue. Mauris blandit felis vitae sapien sodales interdum at quis nunc. Fusce accumsan porttitor lorem tempus iaculis.",
-  },
-  {
-    id: 6,
-    image: cans,
-    description: "gray",
-  },
-  {
-    id: 7,
-    image: cans,
-    description: "gray",
+      "Feeding Ontario offers a wide array of food bank and meal program options in your community! Finding yours just two clicks away!      ",
   },
 ];
 

@@ -38,13 +38,27 @@ const SingleBank = () => {
           <h2>Food bank</h2>
           <div className="mealContainer">
             <h2 className="place">{bankName} </h2>
-            <img src={singleBank[0].picture} className="single-img" />
+            <img src={singleBank[0].picture} className="single-img2" />
 
             <h2 className="description">{singleBank[0].description} </h2>
             <h2 className="location">{singleBank[0].location} </h2>
             <h2 className="contact">{singleBank[0].contact} </h2>
-            <div>
-              <h2 className="map">{singleBank[0].map} </h2>
+            <button className="btn btn-secondary">Bus </button>
+            <button className="btn btn-secondary">Car </button>
+
+            <div className="map">
+              <b>From BARTON at GRAYS to Location</b>
+              <ol type="1">
+                <li>
+                  Head south on Gray Rd/Grays Rd toward Barton St E Street View
+                </li>
+                <li>Turn right at the 1st cross street onto Barton St E</li>
+                <li>Turn left onto Birch Ave</li>
+                <li>Turn right onto Cannon St E</li>
+                <li>Sharp left onto York Blvd</li>
+                Turn left onto Bay St N
+              </ol>
+              <img src={singleBank[0].map} className="single-img3" />
             </div>
           </div>
         </div>

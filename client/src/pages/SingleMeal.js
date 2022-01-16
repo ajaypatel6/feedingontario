@@ -41,7 +41,7 @@ const SingleMeal = () => {
           <h2>Meal Program</h2>
           <div className="mealContainer">
             <h2 className="place">{mealName} </h2>
-            <img src={singleMeal[0].picture} className="single-img" />
+            <img src={singleMeal[0].picture} className="single-img2" />
 
             <h2 className="description">{singleMeal[0].description} </h2>
             <h2 className="location">{singleMeal[0].location} </h2>

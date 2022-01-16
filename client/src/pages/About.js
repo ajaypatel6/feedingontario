@@ -11,6 +11,7 @@ const About = () => {
       <div>
         <div className="aboutContainer">
           <h2>About</h2>
+          <p>we are here 2 help</p>
         </div>
       </div>
       <ShortFooter></ShortFooter>

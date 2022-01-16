@@ -1,3 +1,6 @@
+import salvation from "../images/salvation.jpg";
+import directions from "../images/directionsS.PNG";
+
 const foodbanks = [
   {
     id: 1,
@@ -7,7 +10,8 @@ const foodbanks = [
     contact: "(905) 540-1888",
     picture:
       "https://news.microsoft.com/wp-content/uploads/prod/sites/382/2020/06/DriveThru-USA-scaled.jpg",
-    map: "map",
+    map: salvation,
+    directions: directions,
   },
   {
     id: 2,

@@ -5,7 +5,7 @@ const MiddleContent = () => {
   return (
     <>
       <div className="middleContentContainer">
-        <div className="middleTextContainer">Help is available</div>
+        <div className="middleTextContainer">Why Feeding Ontario?</div>
         <div className="middleImageContainer">
           <div className="leftMiddleImage">
             <img src={home[2].image} className="smallImg " />

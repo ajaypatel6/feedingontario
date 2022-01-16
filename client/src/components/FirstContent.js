@@ -7,7 +7,10 @@ const FirstContent = () => {
       <div className="firstContentContainer">
         <div className="firstTextContainer">Food is a human right</div>
         <div className="firstTextContainer">
-          <b>Food security is important </b>
+          <b>
+            Find a food bank or meal plan with Feeding Ontario that works for
+            you!
+          </b>
         </div>
         <div className="firstImageContainer">
           <div className="">
